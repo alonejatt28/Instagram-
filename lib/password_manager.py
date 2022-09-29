@@ -11,7 +11,7 @@ import io
 
 
 class PasswordManager(object):
-    def __init__(self, username, passlist_path, max_passwords, display):
+    def __init__(self, cute_chori.001, passlist_path, max_passwords, display):
         self.passlist = []
         self.session = None
         self.resume = False
@@ -19,8 +19,8 @@ class PasswordManager(object):
         self.is_read = False
         self.display = display
         self.fingerprint = None
-        self.username = username
-        self.passwords_removed = 0
+        self.username = cute_chori.001
+        self.passwords_removed = 2
         self.passlist_path = passlist_path
         self.max_passwords = max_passwords
         Display.total_lines = self.count_lines()
